@@ -1,8 +1,8 @@
-#Important in CSS
+++++++++++++++++++ #Important in CSS ++++++++++++++++++
 
 
 
-<!-- 
+
 
 
 display : flex
@@ -26,25 +26,25 @@ height : 20vh   (This is best way for giving the height vh= view-port height)
 position : absolute
 
 
--->
 
 
 
 
 
-<!-- 
-FOR FONT
+
+
++++++++++++++++++++ FOR FONT +++++++++++++++++++
 
 for fonts we can use google fonts  (they will provide links / tags for the fonts)
 
- -->
+ 
 
 
 
 
 
- <!-- 
- FOR IMAGE 
+ 
+ +++++++++++++++++++++ FOR IMAGE +++++++++++++++++++++
 
  mix-blend-mode :color-dodge   (if we want to mix the image color to the entire page)
 
@@ -52,13 +52,13 @@ weidth : %
 height : %
 z-index : -10   (higher the value higher the image will move up)
 
-  -->
+
 
 
 
  
-  <!-- 
-  FOR BUTTONS
+
+ ++++++++++++++++++++++++  FOR BUTTONS ++++++++++++++++++++++++
 
   padding : 10px 20px
 
@@ -73,11 +73,11 @@ z-index : -10   (higher the value higher the image will move up)
   transform : skewX(-20deg)     (this is for the titling the buttons on X-axis 20 deg)
 
 
-   -->
+ 
 
 
-   <!-- 
-   TRANSPARENT BANNER STRIP (OR SOMETHING LIKE THIS)
+
+   ++++++++++++++++++ TRANSPARENT BANNER STRIP (OR SOMETHING LIKE THIS)   +++++++++++++++++
 
    backdrop-filter : blur(4px)    (to see the behind element or blur them)
 
@@ -90,5 +90,5 @@ z-index : -10   (higher the value higher the image will move up)
    box-shadow : 0 80px 32px 0  rgba(31, 38, 135, 0.37)
 
 
-    -->
+  
 
