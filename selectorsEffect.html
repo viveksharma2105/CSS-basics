@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors-Effect</title>
+</head>
+<style>
+
+/*  move effect  */
+    button:hover{
+        
+     background-color: rgb(140, 104, 177);
+     color: white;
+    }
+
+    /* adding text or omg after the tag */
+    h1::after{
+        content: "Hii";
+        color: rgb(255, 238, 0);
+    }
+
+    /* paragraph  */
+     p::first-letter{
+        background-color: #cf5d5d;
+        color: #ffff;
+        font-size: 80px;
+        padding: 5px;
+     }
+
+
+
+
+</style>
+<body style="background-color: #808080;">
+    <button >START</button>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
+
+
