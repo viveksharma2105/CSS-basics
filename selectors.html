@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+    body{
+        background: #717171;
+    }
+
+    /* select a tags */
+    a[target="_parent"]{
+        background: orange;
+    }
+
+
+    /* select 2,3 tag in single time */
+    h1,h2,h3{
+        color: #fefefe;
+    }
+
+
+    /* all li is selected by this */
+    li {  
+        background-color: #fc9749;
+    }
+
+
+    /* if we use ul li then it will selected li which are in ul only */
+    ul li {
+        background: pink;
+    }
+
+    
+    /* select a tag in header */
+    header > a {
+        display: block;
+        background: green;
+        text-align: center;
+    }
+
+
+</style>
+<body>
+    <!-- <a target="_blank" href="https://google.com">Google</a>  -->
+    <a target="_parent" href="https://google.com">Google</a>
+<h1>Lorem ipsum dolor sit amet.</h1>
+<h2>Lorem ipsum dolor sit amet.</h2>
+<h3>Lorem ipsum dolor sit amet.</h3>
+
+<ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+</ul>
+<li>Four</li><br>
+
+<header >
+    <a href="" style="color: aqua;">bing</a> <br>
+    <a href="" style="color: aqua;">crome</a>
+</header>
+
+</body>
+</html>
