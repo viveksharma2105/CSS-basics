@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transform Example</title>
+  <style>
+    .a {
+      margin: 30px;
+      transform: skewX(20deg);
+      transition: transform 5s;
+    }
+
+    .b {
+      margin: 40px;
+      transform: rotate(20deg);
+      transition: transform 5s;
+    }
+
+    
+    .a:hover {
+      transform: skewX(0deg);
+    }
+
+    .b:hover {
+      transform: rotate(0deg);
+    }
+    .box{
+        background-color: #67e96e;
+        width: 240px;
+        height: 240px;
+        margin: 100px;
+        border-radius: 10px;
+        border: solid rgb(82, 115, 247);
+        display: grid;
+    }
+    .box:hover{
+        transition: 5s;
+        transform: rotate(360deg);
+        border: solid red;
+        background: #c28080;
+        opacity: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="a">A</div>
+    <div class="b">B</div>
+  </div>
+  <div class="box" style="text-align: center;align-items: center;">Hover me I'll rotate</div>
+</body>
+</html>
